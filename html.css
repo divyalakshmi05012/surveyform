@@ -1,0 +1,40 @@
+
+.checked{
+    color:goldenrod;
+}
+.textbox{
+    height:150px;
+    width: 600px;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+thead{
+    text-align: left;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgb(226, 230, 235);
+}
+.email{
+    width: 60%;
+}
+small{
+    justify-self: unset;
+}
+box{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:586px){
+    .email{
+        width:40%
+    }
+    .box{
+        height: 100px;
+        width: 400px;
+    }
+}
